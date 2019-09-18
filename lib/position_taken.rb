@@ -14,5 +14,5 @@
 # end
 
 def position_taken?(board, index)
-  (board[index] = "" || board[index] == " " || board[index] == NIL) ? true : false 
+  (board[index] = "" || board[index] == " " || board[index] == NIL) ? false : true
 end
