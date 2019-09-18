@@ -12,3 +12,6 @@ def position_taken?(board, index)
   end
   taken
 end
+
+def position_taken?(board, index)
+  if board[index] = ()
